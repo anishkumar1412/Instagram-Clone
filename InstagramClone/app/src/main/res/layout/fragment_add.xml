@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFragment"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:id="@+id/add_post"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/add_image"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Post"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_marginStart="20dp"/>
+</LinearLayout>
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+<LinearLayout
+    android:id="@+id/add_reels"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/reel"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Reels"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_marginStart="20dp"/>
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    app:cardCornerRadius="5dp">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImageIcon"
+        android:layout_width="76dp"
+        android:layout_height="58dp"
+        android:src="@drawable/user_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/profileImageIcon"
+        app:layout_constraintStart_toEndOf="@+id/profileImageIcon"
+        app:layout_constraintTop_toTopOf="@+id/profileImageIcon"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <Button
+        android:id="@+id/follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="follow"
+        android:backgroundTint="@color/pink"
+        app:layout_constraintBottom_toBottomOf="@+id/profileImageIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.84"
+        app:layout_constraintStart_toEndOf="@+id/name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

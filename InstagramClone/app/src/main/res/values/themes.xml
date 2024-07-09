@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InstagramClone" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor" tools:targetApi="upside_down_cake">@color/pink</item>
+    </style>
+
+    <style name="Theme.InstagramClone" parent="Base.Theme.InstagramClone" />
+</resources>
